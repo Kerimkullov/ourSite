@@ -1,12 +1,11 @@
 <?php
-// use PHPMailer\PHPMailer\PHPMailer;
-// use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
  
 // This path to PHPMailer should be correct
-// require '../PHPMailer/src/Exception.php';
-// require '../PHPMailer/src/PHPMailer.php';
-require_once('../PHPMailer/src/PHPMailer.php')
-// require '../PHPMailer/src/SMTP.php';
+require '../PHPMailer/src/PHPMailer.php';
+require '../PHPMailer/src/Exception.php';
+require '../PHPMailer/src/SMTP.php';
  
 // Instantiation and passing `true` enables exceptions
 $mail = new PHPMailer(true);
@@ -45,9 +44,9 @@ try {
     // TCP port to connect to
  
     //Recipients
-    $mail->setFrom('kingdomdev.io@gmail.com', 'Admin');
+    $mail->setFrom('kingdomdev.io@gmail.com');
  
-    $mail->addAddress('btuuganbekov@gmail.com', 'Beka');
+    $mail->addAddress('btuuganbekov@gmail.com');
     // Add a recipient
  
     // $mail->addAddress('nick@demo.com');
