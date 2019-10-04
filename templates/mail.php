@@ -41,7 +41,7 @@ try {
     $mail->SMTPSecure = 'ssl';
     // Enable TLS encryption, `ssl` also accepted
  
-    $mail->Port       = 587;
+    $mail->Port       = 465;
     // TCP port to connect to
  
     //Recipients
