@@ -461,6 +461,20 @@ section::after {
     content: '';
     pointer-events: none;
 }
+.section-contact {
+    height: 100vh;
+    background-color: #1F212E;
+    padding:8rem 0;
+    position: relative;
+}
+
+
+section-contact::before,
+section-contact::after {
+    position: absolute;
+    content: '';
+    pointer-events: none;
+}
 
 
  svg {
@@ -1418,9 +1432,17 @@ a,
 .client-logo img,
 .dmtop,
 .footer-social .social-icon {
-    -webkit-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+
+/* custom css */
+.navbar-toggler-right {
+    background-color: transparent;
+    border: none;
+    outline-style: none
 }

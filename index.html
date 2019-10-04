@@ -29,20 +29,21 @@
 <body>
 
     <div id="wrapper">
-        <header class="header transparent-header">
+        <header id="header" class="header transparent-header">
             <div class="container">
                 <nav class="navbar navbar-toggleable-md navbar-inverse yamm" id="slide-nav">
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTopMenu" aria-controls="navbarTopMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand" href="/">KingDom</a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTopMenu"
+                        aria-controls="navbarTopMenu" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">KingDom</a>
                     <div class="collapse navbar-collapse" id="navbarTopMenu">
                         <ul class="navbar-nav mr-auto mt-2 mt-md-auto">
                             <li><a class="nav-link" href="#Home">Главная</a></li>
                             <li><a class="nav-link" href="#first-section">О нас</a></li>
                             <li><a class="nav-link" href="#Services">Услуги</a></li>
                             <li><a class="nav-link" href="#Our-works">Наши работы</a></li>
-                            <li><a class="nav-link" href="#Contact">Контакты</a></li>
+                            <li><a class="nav-link" href="/templates/contacts.html">Контакты</a></li>
                         </ul>
                         <div class="nav navbar-nav ml-auto hidden-md-down hidden-sm-down hidden-xs-down">
                             <div class="head-social">
@@ -83,8 +84,9 @@
         <section class="section">
             <div class="container">
                 <div class="section-title cpurple text-left">
-                    <h4>Find inspiration for your project</h4>
-                    <h2>Everyday, our team of experts hand picks the best new web designs from all over the world.</h2>
+                    <h4>Наши решения подойдут именно вам</h4>
+                    <h2>Мы делаем сайты и интернет-магазины «под ключ» с оригинальным уникальным авторским дизайном, с учетом требований
+                    поисковых систем, а также с современной адаптивной кроссбраузерной версткой HTML5 и CSS3</h2>
                 </div><!-- end section-title -->
 
                 <div class="row">
@@ -92,8 +94,9 @@
                         <div class="media service-style-03">
                             <i class="d-flex mr-4 flaticon-open-box"></i>
                             <div class="media-body">
-                                <h5 class="mt-0">Files In Your Dropbox</h5>
-                                <p>Sed vulputate turpis neque, non ultricies mi aliquet nec. Nam sed augue quis urna rutrum sagittis non et urna. Suspendisse vel lorem nullam.</p>
+                                <h5 class="mt-0">Базы данных для сайтов</h5>
+                                <p>Используются с целью хранения различной информации и, упрощенно, представляют собой некоторый набор взаимосвязанных
+                                таблиц.</p>
                             </div><!-- end media-body -->
                         </div><!-- end media -->
                     </div><!-- end col -->
@@ -102,8 +105,9 @@
                         <div class="media service-style-03 mobmartop30">
                             <i class="d-flex mr-4 flaticon-mail-send"></i>
                             <div class="media-body">
-                                <h5 class="mt-0">E-Mail Support System</h5>
-                                <p>Morbi consectetur tortor vel varius laoreet. Cras ante diam, vestibulum sit amet dignissim sit amet, pellentesque eget diam aenean suscipit.</p>
+                                <h5 class="mt-0">Копирайтинг</h5>
+                                <p>Самый лучший в мире сайт должен быть наполнен самым лучшим в мире контентом. Закажите у нас написание продающих и хорошо
+                                индексируемых текстов. Копирайтинг от студии KingDom - это особый вид магии.</p>
                             </div><!-- end media-body -->
                         </div><!-- end media -->
                     </div><!-- end col -->
@@ -116,8 +120,8 @@
                         <div class="media service-style-03">
                             <i class="d-flex mr-4 flaticon-check-list"></i>
                             <div class="media-body">
-                                <h5 class="mt-0">XML Import / Export</h5>
-                                <p>Nunc at dignissim leo. Nullam vulputate ac nulla consectetur tincidunt. Phasellus auctor malesuada odio vel eleifend. Suspendisse cras amet.</p>
+                                <h5 class="mt-0">Контроль процессов</h5>
+                                <p>1-2 раза в неделю мы отчитываемся о проделанной работе. Так же, Вы можете в любой момент получить отчет по проекту.</p>
                             </div><!-- end media-body -->
                         </div><!-- end media -->
                     </div><!-- end col -->
@@ -126,8 +130,9 @@
                         <div class="media service-style-03 mobmartop30">
                             <i class="d-flex mr-4 flaticon-qr-code"></i>
                             <div class="media-body">
-                                <h5 class="mt-0">Mobile Optimized</h5>
-                                <p>Suspendisse ultricies tincidunt libero, ut ultricies orci ultricies nec. Cras laoreet interdum dapibus. Morbi aliquam finibus ipsum sit sed.</p>
+                                <h5 class="mt-0">Оптимизация</h5>
+                                <p>Пора обновить ваш сайт и сделать его еще лучше. Мы проведем бесплатную диагностику, сохраним весь созданный за
+                                длительное время контент и совершим апгрейд вашего сайта и его SEO.</p>
                             </div><!-- end media-body -->
                         </div><!-- end media -->
                     </div><!-- end col -->
@@ -138,41 +143,42 @@
         <section id="first-section" class="section lb">
             <div class="container">
                 <div class="section-title text-center">
-                    <h4>About Us</h4>
-                    <h2>Perfect for Designers & Developers</h2>
+                    <h4 style="margin: 20px">О нас</h4>
+                    <h2>Разработка крутых сайтов, интерактивного веб-дизайна, комплексное продвижение, рекламная и техническая поддержка сайтов.</h2>
+                    <h6>Разработка крутых сайтов, интерактивного веб-дизайна, комплексное продвижение, рекламная и техническая поддержка сайтов.</h6>
                 </div><!-- end section-title -->
 
                 <div class="row">
                     <div class="col-md-4">
                         <div class="service-style-01">
-                            <img src="upload/service_01.jpg" alt="" class="img-fluid">
+                            <img src="images/about-1.jpg" alt="" class="img-fluid">
                             <div class="service-desc-01">
-                                <h4><i class="flaticon-3d"></i> 3D Print & Scanning</h4>
-                                <p>Fusce vitae sapien est. Nam mollis porttitor molestie.</p>
-                                <a href="#" class="readmore">Learn more</a>
+                                <a href="/templates/contacts.html"><h4><i class="flaticon-3d"></i> Дизайн</h4></a>
+                                <p>Интерактивный дизайн, дизайн wow-эффектов, брендбука - фирменного стиля и логотипа компании </p>
+                                <a href="/templates/contacts.html" class="readmore">Learn more</a>
                             </div>
                         </div><!-- end service-style-01 -->
                     </div><!-- end col -->
 
                     <div class="col-md-4 mobmar30">
                         <div class="service-style-01">
-                            <img src="upload/service_02.jpg" alt="" class="img-fluid">
+                            <img src="images/about-2.jpg" alt="" class="img-fluid">
                             <div class="service-desc-01">
-                                <h4><i class="flaticon-photography"></i> Photography & Video</h4>
-                                <p>Phasellus ultricies libero at purus fermentum pharetra. </p>
-                                <a href="#" class="readmore">Learn more</a>
-                            </div>
-                        </div><!-- end service-style-01 -->
-                    </div><!-- end col -->
+                                <a href="/templates/contacts.html"><h4><i class="flaticon-idea"></i> Разработка сайтов</h4></a>
+                                <p>Создание корпоративных сайтов, интернет-магазинов, промо-сайтов и сайтов небольших компаний.</p>
+                                <a href="/templates/contacts.html" class="readmore">Learn more</a>
+                            </div><!-- end service-style-01 -->
+                        </div>
+                    </div>
 
                     <div class="col-md-4">
                         <div class="service-style-01">
-                            <img src="upload/service_03.jpg" alt="" class="img-fluid">
+                            <img src="images/about-3.jpg" alt="" class="img-fluid">
                             <div class="service-desc-01">
-                                <h4><i class="flaticon-support"></i> Support via Forum</h4>
-                                <p>Donec lacus libero, aliquet eget nunc volutpat facili. </p>
-                                <a href="#" class="readmore">Learn more</a>
-                            </div>
+                                <a href="/templates/contacts.html"><h4><i class="flaticon-support"></i> продвижение сайтов</h4></a>
+                                <p>Комплексное продвижение сайтов в digital пространстве. SEO технологии, поддержка сервисов Google и Яндекс. </p>
+                                <a href="/templates/contacts.html" class="readmore">Learn more</a>                            
+                            </div><!-- end service-desc-01 -->
                         </div><!-- end service-style-01 -->
                     </div><!-- end col -->
                 </div><!-- end row -->
@@ -182,22 +188,21 @@
         <section class="section" id="Services">
             <div class="container">
                 <div class="section-title text-center">
-                    <h4>Services</h4>
-                    <h2>Why You Should to Choose Us</h2>
+                    <h4>Услуги</h4>
+                    <h2>Почему именно наша компания</h2>
                 </div><!-- end section-title -->
-
                 <div class="row align-items-center">
                     <div class="col-md-4">
                         <div class="service-box text-center">
                             <img src="images/icons/icon_01.png" alt="" class="img-fluid">
-                            <h4>Web Design</h4>
-                            <p>If you are looking responsive retina website template this service suitable for you. We design beautiful items.</p>
+                            <h4>Программирование</h4>
+                            <p>Программирование необходимого функционала, модулей системы</p>
 
                             <ul>
-                                <li>Website Templates</li>
-                                <li>WordPress Themes</li>
-                                <li>Mobile Applications</li>
-                                <li>Front-End Development</li>
+                                <li>Онлайн калькуляторы</li>
+                                <li>Подключение платежной системы и службы доставки</li>
+                                <li>Интеграция с CRM</li>
+                                <li>формы обратной связи и многое другое</li>
                             </ul>
 
                             <a href="#" class="btn btn-primary btn-sm withradius secbtn withicon">Read more <i class="fa fa-long-arrow-right"></i></a>
@@ -207,14 +212,14 @@
                     <div class="col-md-4 mobmar30">
                         <div class="service-box text-center">
                             <img src="images/icons/icon_02.png" alt="" class="img-fluid">
-                            <h4>Graphic Design</h4>
-                            <p>We create amazing business card designs, banner amd corporate identity items for your next business projects.</p>
+                            <h4>Дизайн и верстка</h4>
+                            <p>Дизайн элементов сайтов, разработка графических элементов. Верстка страниц, макетов...</p>
 
                             <ul>
-                                <li>PSD to HTML</li>
-                                <li>Business Card</li>
-                                <li>Corporate Identity</li>
-                                <li>Banner Design</li>
+                                <li>Интерактивный дизайн</li>
+                                <li>Дизайн элементов сайта кнопок, меню, иконок</li>
+                                <li>Разработка баннеров и другого</li>
+                                <li>Верстка дополнительных макетов сайта</li>    
                             </ul>
 
                             <a href="#" class="btn btn-primary btn-sm withradius secbtn withicon">Read more <i class="fa fa-long-arrow-right"></i></a>
@@ -224,14 +229,13 @@
                     <div class="col-md-4">
                         <div class="service-box text-center">
                             <img src="images/icons/icon_03.png" alt="" class="img-fluid">
-                            <h4>SEO Services</h4>
-                            <p>With our SEO service, would you like to increase the visibility of your business on Google and other search engines.</p>
-
+                            <h4>SEO продвижение сайтов</h4>
+                            <p>Оптимизации сайта для поднятия позиций в поисковых системах</p>
                             <ul>
-                                <li>Link Building Analysis</li>
-                                <li>Rank Guarantee</li>
-                                <li>W3 Validation Fix</li>
-                                <li>Social Media Support</li>
+                                <li>Продвигаем сайты в поиске (SEO)​</li>
+                                <li>Ведем контекстную рекламу​</li>
+                                <li>А еще тизерную и таргетированную рекламу​</li>
+                                <li>Собираем для Вас заявки</li>
                             </ul>
 
                             <a href="#" class="btn btn-primary btn-sm withradius secbtn withicon">Read more <i class="fa fa-long-arrow-right"></i></a>
@@ -264,15 +268,15 @@
         <section class="section lb" id="Our-works">
             <div class="container">
                 <div class="section-title text-center">
-                    <h4>Our Works</h4>
-                    <h2>Create a Beautifully Digital Market</h2>
+                    <h4>Наши работы</h4>
+                    <h2>Мы помогли наладить коммуникации и привлечь сотни пользователей нашим клиентам</h2>
                 </div><!-- end section-title -->
 
                 <div id="works_01" class="owl-carousel owl-theme owl-style-02">
                     <div class="owl-work-item">
                         <div class="portfolio-ver-01">
                             <div class="media-element">
-                                <img src="upload/work_01.jpg" alt="" class="img-fluid">
+                                <img src="images/works-1.jpg" alt="" class="img-fluid">
                             </div><!-- end media -->
                             <div class="portfolio-details"> 
                                 <h4><a href="#">Illustration for the Everwill </a></h4>
@@ -292,7 +296,7 @@
                     <div class="owl-work-item">
                         <div class="portfolio-ver-01">
                             <div class="media-element">
-                                <img src="upload/work_02.jpg" alt="" class="img-fluid">
+                                <img src="images/works-2.jpg" alt="" class="img-fluid">
                             </div><!-- end media -->
                             <div class="portfolio-details"> 
                                 <h4><a href="#">The Dashboard Plus</a></h4>
@@ -312,7 +316,7 @@
                     <div class="owl-work-item">
                         <div class="portfolio-ver-01">
                             <div class="media-element">
-                                <img src="upload/work_03.jpg" alt="" class="img-fluid">
+                                <img src="images/works-2.jpg" alt="" class="img-fluid">
                             </div><!-- end media -->
                             <div class="portfolio-details"> 
                                 <h4><a href="#">Web Design Process</a></h4>
@@ -441,29 +445,33 @@
                 <hr class="invis2">
 
                 <div class="section-title text-center">
-                    <h4>Testimonials</h4>
-                    <h2>What Other's Say About Micrology</h2>
+                    <h4>Отзывы</h4>
+                    <h2>Отзывы наших клиентов</h2>
                 </div><!-- end section-title -->
 
                 <div class="row">
                     <div class="col-md-10 offset-md-1">
                         <div id="testimonial_01" class="owl-carousel owl-theme owl-style-01">
                             <div class="testi-style-01 clearfix">    
-                                <img src="upload/team_01.jpg" alt="" class="img-fluid rounded-circle float-left">
-                                <h4>Amanda Johnson <small>Nebudebu.com <a href="#" title="visit website"><i class="fa fa-link"></i></a></small></h4>
-                                <p>Thanks to the independent blocks, I created my own web site in minutes with the Micrology template.</p>
+                                <img src="images/ava-1.jpg" alt="" class="img-fluid rounded-circle float-left">
+                                <h4>Асель Карагулова</h4>
+                                <p>Хочется выразить благодарность компании за оперативную разработку 2х сайтов и 2 лендинговых страниц, быстро приняли
+                                заявку, оперативно предложили несколько вариантов исполнения, грамотно проконсультировали по нюансам.</p>
                             </div><!-- end testimonial -->
 
                             <div class="testi-style-01 clearfix">    
-                                <img src="upload/team_02.jpg" alt="" class="img-fluid rounded-circle float-left">
-                                <h4>Jonny Anderson <small>Kimbukila.com <a href="#" title="visit website"><i class="fa fa-link"></i></a></small></h4>
-                                <p>Just wanted to say thanks for the great item. I’ve recently expanded from HTML to HTML5 and am using your Micrology. </p>
+                                <img src="images/ava-2.jpg" alt="" class="img-fluid rounded-circle float-left">
+                                <h4>Айкол Рыспек <small>danieltexgroup.com <a href="http://danieltexgroup.com/" title="visit website"><i class="fa fa-link"></i></a></small></h4>
+                                <p>Ребята предлагаю оптимальное решение для тех, кто знает чего хочет. Быстро создают страницы и молниеносно реагируют на
+                                изменения. </p>
                             </div><!-- end testimonial -->
 
                             <div class="testi-style-01 clearfix">    
-                                <img src="upload/team_03.jpg" alt="" class="img-fluid rounded-circle float-left">
-                                <h4>Martin Donson <small>html.design <a href="#" title="visit website"><i class="fa fa-link"></i></a></small></h4>
-                                <p>Micrology is the best template I’ve ever bought! HTML.Design has the best support over the net! Keep it up!</p>
+                                <img src="images/ava-3.jpg" alt="" class="img-fluid rounded-circle float-left">
+                                <h4>Айдана Жунусова</h4>
+                                <p>Огромная благодарность Беке за прекрасный сайт Roberto-Rierra.com! Специалист высокого класса, профессионал своего дела.
+                                Приятно работать с человеком, способным воплотить все твои идеи в реальность. Для Олега нет ничего невозможного, если у
+                                Вас есть задумка, она обязательно воплотится в жизнь!</p>
                             </div><!-- end testimonial -->
 
                         </div><!-- end owl -->
@@ -474,28 +482,29 @@
 
         <footer class="footer section" id="Contact">
             <div class="container"> 
-                <div class="row">
-                    <div class="col-md-4">
+                <div class="row align-items-center">
+                    <!-- <div class="col-md-4">
                         <div class="widget">
                             <a href="index.html" title=""><img src="images/flogo.png" class="footer-logo" alt=""></a>
                             <h4 class="widget-title">
-                                About Micrology
+                                О KingDom
                             </h4>
                             <div class="about-widget">
-                                <p>We design professional website templates & WordPress themes for creative agency companies.</p>
-                            </div><!-- end about-widget -->
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-                    <div class="col-md-8 mobmartop30">
+                                <p>Наша студия занимается разработкой веб приложений, 
+                                   лендингов, дизайном интерфейса.
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-md mobmartop30 text-center">
                         <div class="widget">
                             <div class="footer-links">
                                 <nav class="foot-link">
                                     <ul>
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Works</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Get In Touch</a></li>
+                                        <li><a href="#header">Главное</a></li>
+                                        <li><a href="#first-section">О нас</a></li>
+                                        <li><a href="#Our-works">Наши проекты</a></li>
+                                        <li><a href="#">Контакты</a></li>
                                     </ul>
                                 </nav><!-- end foot -->
                             </div><!-- end links -->
@@ -505,23 +514,23 @@
                                     <div class="row">
                                         <div class="col-md-4">
                                             <h4 class="widget-title">
-                                                <i class="fa fa-map-marker"></i> Our Office
+                                                <i class="fa fa-map-marker"></i> Наш офис
                                             </h4>  
-                                            <p>1382 Sok. No: 27/A Kultur Mah. Alsancak iZMiR </p>
+                                            <p>г. Бишкек ул. Анкара 5А</p>
                                         </div><!-- end col -->
 
                                         <div class="col-md-4">
                                             <h4 class="widget-title">
-                                                <i class="fa fa-phone"></i> Phone
+                                                <i class="fa fa-phone"></i> Номер телефона
                                             </h4>  
                                             <p>+90 (987) 654 32 10</p>
                                         </div><!-- end col -->
 
                                         <div class="col-md-4">
                                             <h4 class="widget-title">
-                                                <i class="fa fa-envelope-open-o"></i>  Email
+                                                <i class="fa fa-envelope-open-o"></i>  Почта
                                             </h4>  
-                                            <p>info@yoursite.com</p>
+                                            <p>kingdom@gmail.com</p>
                                         </div><!-- end col -->
                                     </div><!-- end row -->
                                 </div><!-- end contact-widget -->
@@ -541,7 +550,7 @@
                             </div>
                         </div>
                         <div class="footer-copy">
-                            <p>© 2018 All Rights Reserved <a href="#">YourSiteName</a> - Design: <a href="http://html.design">HTML Design</a></p>
+                            <p>© 2018 All Rights Reserved <a href="#"><strong>KingDom</strong></a> - Design<a href="http://index.html"></a></p>
                         </div><!-- end copy -->
                     </div><!-- end col -->
                 </div><!-- end row -->
