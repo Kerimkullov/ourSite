@@ -30,6 +30,10 @@ h1 {
   margin: 0.67em 0;
 }
 
+.hero h6{
+  color: #fff!important;
+}
+
 figcaption,
 figure,
 main {
@@ -9318,3 +9322,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/* Custom modification */
+.footer-copy a:hover {
+  color: #fff;
+}
