@@ -4,9 +4,9 @@ use PHPMailer\PHPMailer\Exception;
  
 // This path to PHPMailer should be correct
  
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
+require '../PHPMailer/src/Exception.php';
+require '../PHPMailer/src/PHPMailer.php';
+require '../PHPMailer/src/SMTP.php';
  
 // Instantiation and passing `true` enables exceptions
 $mail = new PHPMailer(true);
