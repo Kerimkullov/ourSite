@@ -11,7 +11,7 @@ require '../PHPMailer/src/SMTP.php';
 // Instantiation and passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
-$resend_url = 'index.html'
+$resend_url = 'https://kerimkullov.github.io/ourSite/'
  
 try {
     //Server settings
@@ -34,7 +34,7 @@ try {
     $mail->Password   = '$346&dG89';
     // SMTP password for your Email
  
-    $mail->SMTPSecure = 'tls';
+    $mail->SMTPSecure = 'ssl';
     // Enable TLS encryption, `ssl` also accepted
  
     $mail->Port       = 587;
@@ -43,7 +43,7 @@ try {
     //Recipients
     $mail->setFrom('kingdomdev.io@gmail.com', 'Admin');
  
-    $mail->addAddress('kingdomdev.io@gmail.com', 'Tom');
+    $mail->addAddress('btuuganbekov@gmail.com', 'Beka');
     // Add a recipient
  
     // $mail->addAddress('nick@demo.com');
