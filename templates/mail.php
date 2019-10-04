@@ -69,7 +69,6 @@ try {
  
     $mail->send();
     echo 'Email has been sent';
-    header("Location: /$resend_url");
 } catch (Exception $e) {
     echo "Email could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
