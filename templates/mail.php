@@ -12,6 +12,10 @@ require '../PHPMailer/src/SMTP.php';
 $mail = new PHPMailer(true);
 
 $resend_url = 'https://kerimkullov.github.io/ourSite/'
+$user_name = $_POST['user_name']
+$user_email = $_POST['user_email']
+$user_phone = $_POST['user_phone']
+$user_message = $_POST['user_message']
  
 try {
     //Server settings
